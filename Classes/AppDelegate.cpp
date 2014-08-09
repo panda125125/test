@@ -17,6 +17,9 @@ bool AppDelegate::applicationDidFinishLaunching() {
     CCEGLView* pEGLView = CCEGLView::sharedOpenGLView();
 
     pDirector->setOpenGLView(pEGLView);
+    
+    
+    
 	
     // turn on display FPS
     pDirector->setDisplayStats(true);
