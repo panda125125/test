@@ -19,7 +19,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     pDirector->setOpenGLView(pEGLView);
     
     
-    
+    //222
 	
     // turn on display FPS
     pDirector->setDisplayStats(true);
